@@ -64,6 +64,14 @@ img { border: none; }
    {
     padding: 0.5em;
    }
+   #buscador{
+    padding-top: 0.5em;
+   }
+
+   /* #cabecera h1
+   {
+    background-image: url(/FRONTEND/img/logo.gif);    
+   } */
    
    #cabecera, #lateral, #contenido, #contenido #principal, #contenido {
     border: none;
@@ -86,6 +94,7 @@ img { border: none; }
    {
     margin-top: 1em;
     border: 1px dashed #CC6600;
+    background-color: #FFF6CD;
 
    }
 
@@ -113,12 +122,19 @@ img { border: none; }
     border-bottom-color: #004C99 !important;
     padding-bottom: 0.5em;
     margin-bottom: 0.5em;
+    background-image: url(/FRONTEND/img/fondo_menu.gif);
    }
 
    #secundario
    {
     padding-top: 1.5em;
     border: 1px solid #CC6600;
+   }
+
+   #secundario h2
+   {
+    background-color: #DB905C;
+    padding: 0.2em;
    }
 
  
