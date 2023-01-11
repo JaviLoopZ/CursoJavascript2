@@ -25,8 +25,8 @@ img { border: none; }
 #menu { clear: both; }
 #lateral { float: left; width: 20%; }
 #contenido { float: right; width: 78%; }
-#contenido #principal { float: left; width: 75%; }
-#contenido #secundario { float: right; width: 20%; }
+#contenido #principal { float: left; width: 76%; }
+#contenido #secundario { float: right; width:19%; }
 #pie { clear: both; }
  
 /*-- Cabecera --------------------------------------------------------*/
@@ -47,7 +47,12 @@ img { border: none; }
    A partir de aquí, se pueden añadir todos los estilos propios que 
    sean necesarios.
    ================================================================== */
-
+  body
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    line-height: 1.4;
+  }
 
    #noticias
    {
@@ -67,17 +72,12 @@ img { border: none; }
    #buscador{
     padding-top: 0.5em;
    }
-
-   /* #cabecera h1
-   {
-    background-image: url(/FRONTEND/img/logo.gif);    
-   } */
    
    #cabecera, #lateral, #contenido, #contenido #principal, #contenido {
     border: none;
   }
 
-   #noticias, #publicidad, #principal, #secundario
+   #noticias, #publicidad
    {
     padding: 0.5em;
 
@@ -98,6 +98,19 @@ img { border: none; }
 
    }
 
+   #publicidad h3 a{
+    color:#CC6600;
+   }
+
+   #publicidad a{
+    color: #CC6600;
+   }
+
+   #publicidad p{
+    line-height: 1.5;
+    padding-right: 0.5em;
+   }
+
    #pie
    {
     padding-top: 0.5em;
@@ -110,6 +123,19 @@ img { border: none; }
    {
     padding: 1em;
     border: none;
+   }
+
+   .articulo h2 
+   {
+    color: #CC6600;
+    font-size: 1.6em;
+    line-height: 1.2;
+    margin-bottom: 0.3em;
+
+   }
+
+   .articulo a{
+    color: #CC6600;
    }
 
    .articulo img{
@@ -125,16 +151,69 @@ img { border: none; }
     background-image: url(/FRONTEND/img/fondo_menu.gif);
    }
 
+   #menu #menu_principal
+   {
+    padding: 0.5em;
+   }
+   #menu li{
+    margin-right: 1em;
+    
+   }
+
+   #menu a{
+
+    color: #FFFFFF;
+    font-size: 1.3em;
+   }
+
+   #principal p
+   {
+    line-height: 1.5;
+   }
+
    #secundario
    {
+    
     padding-top: 1.5em;
     border: 1px solid #CC6600;
+    padding: 0.5em;
    }
 
    #secundario h2
    {
     background-color: #DB905C;
     padding: 0.2em;
+    color:#FFFFFF;
+    font-size: 0.9em;
+   }
+
+   #secundario p
+   {
+    padding-top: 0.5em;
+    line-height: 1.5;
+   }
+
+   #secundario a
+   {
+    padding-top: 0.5em;
+   }
+
+   #lateral
+   {
+    font-size: 0.9em;
+   }
+
+   #noticias .fecha
+   {
+    
+     width: 100%;
+     float: left;
+     color: #999;
+   }
+
+   #noticias h3
+   {
+    color: #003366;
    }
 
  
